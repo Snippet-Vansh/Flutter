@@ -45,12 +45,13 @@ class _MyHomePageState extends State<MyHomePage> {
 
         ),
          body: Container(
-
+              height: 300,
+             width: 300,
              child: Column(
              // mainAxisAlignment: MainAxisAlignment.center,
              // mainAxisAlignment: MainAxisAlignment.spaceBetween,
              // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-             // crossAxisAlignment: CrossAxisAlignment.center ,
+             // crossAxisAlignment: CrossAxisAlignment.stretch ,
              children: <Widget> [
                Text('A',style: TextStyle(fontSize: 26),),
                Text('B',style: TextStyle(fontSize: 26),),
@@ -63,9 +64,6 @@ class _MyHomePageState extends State<MyHomePage> {
                      print('Button pressed');
                    },
                )
-
-
-
              ],
            ),
          )
